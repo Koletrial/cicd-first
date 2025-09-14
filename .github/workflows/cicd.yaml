@@ -23,7 +23,7 @@ jobs:
         node-version: '18'
 
     - name: Run tests
-      run: npm tests
+      run: npm test
 
   deploy:
     needs: test
